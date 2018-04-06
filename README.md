@@ -15,7 +15,8 @@ A script that will move anything in your Downloads folder, older than 30 days, i
 
 
 
-**I've tried it and I hate having a clean downloads folder**
+**I've tried it and I hate having a clean downloads folder** 
+
 This part is still in progress and will delete any other Cron jobs running
 ```
 1. Open trash-collector directory
@@ -24,7 +25,8 @@ This part is still in progress and will delete any other Cron jobs running
 ```
 
 **But...I have other Cron jobs that I like**
-Not to worry
+
+Not to worry, there is a solution
 ```
 1. Open terminal
 2. Type crontab -e
@@ -32,4 +34,4 @@ Not to worry
 4. delete line that says `0 0,4,8,12,16,20 * * * clean.sh`
 5. Type `:wq`
 6. Hit enter
-7. Live your life
+7. Live your life covered in trash
