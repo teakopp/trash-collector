@@ -1,5 +1,5 @@
 
-#Trash Collector
+# Trash Collector
 
 For people who hate trash.
 
