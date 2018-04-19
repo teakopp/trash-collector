@@ -8,7 +8,7 @@ A script that will move anything in your Downloads folder, older than 30 days, i
 **How to use**
 ```
 1. Clone repo
-2. Move out of downloads folder or it will eventually destory itself
+2. Move to `Documents` directory
 2. Open trash-collector directory
 3. Click on create-cron.command
 4. Enjoy clutter free life
@@ -16,7 +16,7 @@ A script that will move anything in your Downloads folder, older than 30 days, i
 
 
 
-**I've tried it and I hate having a clean downloads folder** 
+**I've tried it and I hate having a clean downloads folder**
 
 This part is still in progress and will delete any other Cron jobs running
 ```
