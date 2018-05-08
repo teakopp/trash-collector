@@ -1,4 +1,4 @@
 #!/bin/bash
-SCRIPT="$(pwd)"
-echo "Creating Cronjob for ${SCRIPT}/clean.sh"
-(crontab -l 2>/dev/null; echo "0 0,4,8,12,16,20 * * * "${SCRIPT}/clean.sh" >/dev/null;") | crontab
+SCRIPT="$(pwd)/clean.sh"
+echo "Creating Cronjob for ${SCRIPT}"
+(crontab -l 2>/dev/null; echo "0 0,4,8,12,16,20 * * * "${SCRIPT}" >/dev/null;") | crontab
